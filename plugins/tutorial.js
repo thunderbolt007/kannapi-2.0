@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
 Tutorial Buat Bot WA:
-Credit: *~mr.ravanan*
+Credit: *KRATOS*
 
 Ketik di *[TERMUX]*
 1) $pkg install git
@@ -20,8 +20,7 @@ Cuy installation :)
 9) node index.js
 
 _You can see the tutorial at_
-*Our Youtube:*
-https://youtube.com/c/MrRavanan
+
 `.trim(), m)
 }
 handler.command = /^(tutorial)$/i
