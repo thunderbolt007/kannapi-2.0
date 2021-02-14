@@ -32,8 +32,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
-🤖 [കണ്ണാപി ബോട്ട് 2.0] 🤖
-Creator: ʀᴀɴᴊɪᴛʜ [ᴍʀ.ʀᴀᴠᴀɴᴀɴ]
+🤖 [ASSISTANT OF KRATOS [ARTIFICIAL INTELLIGENCE]] 🤖
+Creator: ʀ [KRATOS]
 
 Hi, ${name} 👋
 Exp: ${exp}
@@ -99,18 +99,18 @@ How to Add XP:
 ╠➥ ${_p}mutechat group
 ║
 ╠═〘 ADVERTISEMENT 〙 ═
-╠➥ Instagram: https://instagram.com/__mr_ravanan?igshid=1pnrvego2ur69
-╠➥ YᴏᴜTᴜʙᴇ: https://youtube.com/c/MrRavanan
+╠➥ Instagram: https://instagram.com
+╠➥ YᴏᴜTᴜʙᴇ: https://youtube.com/
 ║
 ╠═〘 Info Bot 〙 ═
-╠➥ Name : കണ്ണാപി ബോട്ട് 2.0
+╠➥ Name : ASSISTANT OF KRATOS [ARTIFICIAL INTELLIGENCE]
 ╠➥ Coded using * Nano * on Android \\ w Termux
-╠➥ Request? wa.me//+919048410619
+╠➥ Request? wa.me//+91*********
 ╠═════
 ║ Advanced:
 ║  > return m
 ║
-╠═〘 കണ്ണാപി ബോട്ട് 2.0 〙═
+╠═〘 ASSISTANT OF KRATOS [ARTIFICIAL INTELLIGENCE]〙═
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)
   }
